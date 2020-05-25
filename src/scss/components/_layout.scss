@@ -747,7 +747,16 @@
     }
   }
 }
-  
+
+.anchor.before {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-100%);
+  padding-right: 4px;
+}
+
 .tag-container {
   a {
     display: inline-block;
