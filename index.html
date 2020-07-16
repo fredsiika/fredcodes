@@ -26,14 +26,14 @@
         <div class="nav-container">
           <!-- Logo -->
             <div class="brand">
-                <a class="" href="https://fredsiika.github.io/fredcodes/" aria-current="page" aria-label="Fred Siika">
+                <a class="" href="index.html" aria-current="page" aria-label="Fred Siika">
                     <img src="dist/images/floppy.png" class="favicon" alt="Floppy Disk Logo">
                     <span class="text">Fred Siika</span>
                 </a>
             </div>
             <!-- End Logo -->
             <div class="links">
-                <a href="#welcome-section">About</a>
+                <a href="#about">About</a>
                 <a href="#projects">Projects</a>
                 <a href="#contact">Contact</a>
             </div>
@@ -51,7 +51,7 @@
   <!-- ========== MAIN CONTENT ========== -->
   <main id="main-content">
     <!-- About -->
-    <div class="gradient-light-v1">
+    <div id="about" class="gradient-light-v1">
       <div class="container">
         <div class="lead">
           <div class="elevator">
@@ -73,11 +73,11 @@
           </div>
           <!-- Newsletter Section -->
           <div class="newsletter-section">
-            <img src="/dist/images/avatar_fredsiika.png" class="newsletter-avatar" alt="Fred">
+            <img src="https://avatars2.githubusercontent.com/u/32261113?s=460&v=4" class="newsletter-avatar" alt="Fred">
             <div>
               <h3>Email Newsletter</h3>
               <p>I write tutorials. Get an update when something new comes out by signing up below!</p>
-              <a class="button" href="https://fredsiika.substack.com">Subscribe</a>
+              <a class="button" href="https://fredsiika.substack.com" title="Subscribe to my newsletter">Subscribe</a>
             </div>
           </div>
           <!-- End Newsletter Section -->
@@ -87,7 +87,7 @@
     <!-- End About -->
 
     <!-- Portfolio Hero Banner -->
-    <div class="gradient-half-primary-v1">
+    <div id="projects" class="gradient-half-primary-v1">
       <div class="bg-img-hero" style="background-image: url(src/images/bg/bg2.png);">
         <div class="container space-2">
           <div class="text-center mx-auto">
@@ -99,8 +99,10 @@
             <!-- End Title -->
 
             <!-- Buttons -->
-            <a class="button" href="#!">Hire Me</a>
-            <a class="button accent-button" href="#!">Contact Me</a>
+            <a class="button" href="https://www.upwork.com/fl/fredcodes" target="_blank" rel="noopener noreferrer" title="Hire me">Hire Me</a>
+            <a class="button accent-button" href="mailto:fredsiika@gmail.com?
+            bcc=fred@fredsiika.com
+            &amp;subject=Fred%20Siika%20Portfolio%20Contact%20Form">Contact Me</a>
             <!-- End Buttons -->
           </div>
         </div>
@@ -108,27 +110,27 @@
     </div>
     <!-- End Portfolio Hero Banner -->
     
-    <div id="projects" class="container front-page">
+    <div class="container front-page">
       <article class="project-tile">
         <div class="flex-container">
-          <!-- Konectpal Project -->
+          <!-- RBS Home Buyers Project -->
           <div class="card">
-            <div class="card-image" style="background-image: url(https://fredsiika.github.io/fredcodes/dist/images/konectpal-background.png);"></div>
+            <div class="card-image" style="background-image: url(/dist/images/rbs-home-buyers-background.png);"></div>
             <div class="card-content">
-              <h3>Konectpal Invest</h3>
+              <h3>RBS Home Buyers</h3>
               <div class="subtitle">Real Estate</div>
               <p>Mobile-first web app that connects real estate investors, and property owners built with Bootstrap, JavaScript, jQuery and Node.js.</p>
     
               <div class="card-details">
                 <div class="card-details-inner">
                   <div class="read-more">
-                    <a class="button" href="https://konectpalinvest.com" target="_blank" rel="noopener noreferrer">Visit Website</a>
+                    <a class="button" href="https://rbshomebuyers.com" target="_blank" rel="noopener noreferrer" title="Visit website">Visit Website</a>
                   </div>
                   <div class="options">
                     <span>
                       <span>
                         <div class="widget widget-lg">
-                          <a class="btn" href="https://github.com/fredsiika/konectpal" target="_blank" rel="noopener">
+                          <a class="btn" href="https://github.com/fredsiika/rbs-home-buyers" target="_blank" rel="noopener" title="View Source Code on GitHub">
                             <svg viewBox="0 0 16 16" class="octicon octicon-mark-github" style="width: 16px; height: 16px;" aria-hidden="true">
                               <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
                             </svg>
@@ -142,7 +144,7 @@
               </div>
             </div>
           </div>
-          <!-- End Konectpal Project -->
+          <!-- End RBS Home Buyers Project -->
     
           <!-- SiikaDesigns Project -->
           <div class="card">
@@ -156,13 +158,13 @@
               <div class="card-details">
                 <div class="card-details-inner">
                   <div class="read-more">
-                    <a class="button" href="https://siikadesigns.com" target="_blank" rel="noopener">Visit Website</a>
+                    <a class="button" href="https://siikadesigns.com" target="_blank" rel="noopener" title="Visit website">Visit Website</a>
                   </div>
                   <div class="options">
                     <span>
                       <span>
                         <div class="widget widget-lg">
-                          <a class="btn" href="https://github.com/fredsiika/siikadesigns" target="_blank" rel="noopener">
+                          <a class="btn" href="https://github.com/fredsiika/siikadesigns" target="_blank" rel="noopener" title="View source code on GitHub">
                             <svg viewBox="0 0 16 16" class="octicon octicon-mark-github" style="width: 16px; height: 16px;" aria-hidden="true">
                               <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
                             </svg>
@@ -287,9 +289,9 @@
         </div>
         <ul>
           <li><strong>GitHub</strong>: <a href="https://github.com/fredsiika">fredsiika</a></li>
+          <li><strong>LinkedIn</strong>: <a href="https://linkedin.com/in/fredsiika">fredsiika</a></li>
           <li><strong>Twitter</strong>: <a href="https://twitter.com/fredsiika">fredsiika</a></li>
-          <li><strong>Patreon</strong>: <a href="https://patreon.com/fredsiika">fredsiika</a></li>
-          <li><strong>Ko-Fi</strong>: <a href="https://ko-fi.com/fredsiika">fredsiika</a></li>
+          <li><strong>Medium</strong>: <a href="https://medium.com/fredsiika">fredsiika</a></li>
         </ul>
       </section>
       <!-- End Contact -->
@@ -300,14 +302,15 @@
   <!-- ========== FOOTER ========== -->
   <footer class="footer container gradient-half-purple-v1">
       <div>
-          <a href="https://ko-fi.com/fredsiika" target="_blank" rel="noopener noreferrer">Ko-Fi</a>
-          <a href="https://patreon.com/fredsiika" target="_blank" rel="noopener noreferrer">Patreon</a>
-          <a href="#contact">Contact</a>
+        <a href="https://www.upwork.com/fl/fredcodes" target="_blank" rel="noopener noreferrer" title="Hire me">Hire Me</a>
+        <a href="mailto:fredsiika@gmail.com?
+          bcc=fred@fredsiika.com
+          &amp;subject=Fred%20Siika%20Portfolio%20Contact%20Form">Contact</a>
+          <a href="https://patreon.com/fredsiika" target="_blank" rel="noopener noreferrer" title="Visit my Patreon page">Patreon</a>
+          <a href="https://ko-fi.com/fredsiika" target="_blank" rel="noopener noreferrer" title="Visit my Ko-Fi Page">Ko-Fi</a>
       </div>
       <div>
-          <a href="https://github.com/fredsiika" title="Open-source on GitHub" target="_blank" rel="noopener noreferrer"><img src="https://www.taniarascia.com/static/github-d160ace5798527574789e89ec034e8f7.png" class="footer-img" alt="GitHub"></a>
-          <a href="https://www.netlify.com/" title="Hosted by Netlify" target="_blank" rel="noopener noreferrer"><img src="https://www.taniarascia.com/static/netlify-95e178f5b1dc1a2327595784442a866c.png" class="footer-img" alt="Netlify"></a>
-          <a href="https://www.gatsbyjs.org/" title="Built with Gatsby" target="_blank" rel="noopener noreferrer" style="margin-right:0;"><img src="https://www.taniarascia.com/static/gatsby-b7637c262ad964cf2f70abbbfc9e1f93.png" class="footer-img" alt="Gatsby"></a>
+        <a href="https://github.com/fredsiika" title="Open-source on GitHub" target="_blank" rel="noopener noreferrer"><img src="https://www.taniarascia.com/static/github-d160ace5798527574789e89ec034e8f7.png" class="footer-img" alt="GitHub"></a>
       </div>
   </footer>
   <!-- ========== END FOOTER ========== -->
